@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1>java script objects</h1>
+<p id="demo"></p>
+<button onclick="myFunction()">try it</button>
+<script>
+var fruit=["mango","banana","orange"];
+		
+
+document.getElementById("demo").innerHTML=fruit;
+function myFunction(){
+	fruit.sort();
+	document.getElementById("demo").innerHTML=fruit
+}
+
+</script>
+</body>
+</html>

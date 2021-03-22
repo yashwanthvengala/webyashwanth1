@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<p>java Script Element</p>
+<button id="btn">Click</button>
+<p id="demo"></p>
+<body>
+<script>
+var hello;
+hello = function(){
+	document.getElementById("demo").innerHTML += this;
+}
+window.addEventListener("load",hello);
+document.getElementById("btn").addEventListener("load",hello);
+</script>
+</body>
+</html>

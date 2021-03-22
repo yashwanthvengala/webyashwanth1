@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id="demo"></p>
+<button onclick="clearInterval(myVar)">button</button>
+<script>
+var myVar=setInterval(myfunction,1000);
+function myfunction(){
+	var d= new Date();
+	document.getElementById("demo").innerHTML=d.toLocaleTimeString();
+}
+</script>
+</body>
+</html>
